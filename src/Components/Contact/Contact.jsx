@@ -27,9 +27,9 @@ const Contact = () => {
       body: json
     }).then((res) => res.json());
 
-    
+
       alert(res.message);
-    
+
   };
 
 
@@ -45,13 +45,13 @@ const Contact = () => {
             <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
             <div className="contact-details">
                 <div className="contact-detail">
-                    <img src={mail_icon} alt="" /> <p>greatstackdev@gmail.com</p>
+                    <img src={mail_icon} alt="" /> <p>sandunkanangama@gmail.com</p>
                 </div>
+                {/* <div className="contact-detail">
+                    <img src={call_icon} alt="" /> <p>0704 160 1776</p>
+                </div> */}
                 <div className="contact-detail">
-                    <img src={call_icon} alt="" /> <p>+772-825-524</p>
-                </div>
-                <div className="contact-detail">
-                    <img src={location_icon} alt="" /> <p>CA, United States</p>
+                    <img src={location_icon} alt="" /> <p>Tokyo, Japan</p>
                 </div>
             </div>
         </div>
