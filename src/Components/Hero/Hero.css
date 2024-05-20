@@ -4,11 +4,27 @@
     flex-direction: column;
     gap: 20px;
 }
-.profile-img{
-    margin-top: 30px;
-    width: 240px;
-    border-radius: 50%;
+.profile-img-container {
+  margin-top: 30px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensures the image does not overflow the container */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
+
+.profile-img {
+  width: 110%;
+  height: auto;
+  /* transform: scale(1.1); Zooms in the image by 15% */
+  object-fit: cover; /* Ensures the image covers the container */
+  object-position: center; /* Shifts the image down */
+}
+
+
+
 .hero h1{
     text-align: center;
     width: 65%;

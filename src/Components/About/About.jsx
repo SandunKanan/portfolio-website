@@ -17,9 +17,12 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-              <p>I have over 4 years experience at one of Australia's Big 4 Banks,
-                with roles as a Risk Systems Analyst, Project Manager and Mortgage Collections Case Manager.
-              </p>
+              <p>Data Scientist with 4 years experience working at one of Australia’s big 4 banks, 2 years as a BA.
+                I’ve recently embarked on a professional development journey, completing two intensive
+                3-month bootcamps in web development and data science.</p>
+              <p>I’m currently seeking Data opportunities in Tokyo. Keen to contribute to
+                innovative projects, and my approach to work and leadership is
+                focused on strong collaboration between teams in diverse departments.</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>Python</p><hr style={{width:"90%"}} /></div>
