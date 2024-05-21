@@ -68,6 +68,7 @@
 }
 .hero-resume:hover{
     border-color: #B415FF;
+    color: #B415FF;
 }
 @media(max-width:768px){
     .profile-img{

@@ -22,7 +22,7 @@ const About = () => {
                 3-month bootcamps in web development and data science.</p>
               <p>I’m currently seeking Data opportunities in Tokyo. Keen to contribute to
                 innovative projects, and my approach to work and leadership is
-                focused on strong collaboration between teams in diverse departments.</p>
+                focused on strong collaboration between different teams, across departments.</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>Python</p><hr style={{width:"90%"}} /></div>
