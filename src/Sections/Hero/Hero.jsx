@@ -18,7 +18,7 @@ const Hero = () => {
       <h1>I'm <span>Sandun,</span> a Data Scientist based in Tokyo.</h1>
       <p>I've come from Melbourne, Australia. I am currently relocating to Japan, and making a transition from Business Analysis into Data and Tech.</p>
       <div className="hero-action">
-        <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
+        <div className="hero-connect-box"><AnchorLink className='hero-connect' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <a href={resume} target="_blank">
           <div className="hero-resume">
             My Resume
