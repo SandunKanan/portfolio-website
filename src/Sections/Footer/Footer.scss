@@ -1,8 +1,12 @@
 .footer{
-    margin: 50px 10%;
+    margin: 40px 10%;
     display: flex;
     flex-direction: column;
     gap: 25px;
+
+    &__logo {
+      width: 3rem;
+    }
 }
 .footer-top{
     display: flex;

@@ -1,8 +1,8 @@
 import React from 'react'
 import './MyWork.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
-import mywork_data from '../../assets/mywork_data'
-import arrow_icon  from '../../assets/arrow_icon.svg'
+import theme_pattern from '../../assets/icons/theme_pattern.svg'
+import mywork_data from '../../assets/data/mywork_data'
+import arrow_icon  from '../../assets/icons/arrow_icon.svg'
 
 import ProjectTile from '../../Components/ProjectTile/ProjectTile'
 

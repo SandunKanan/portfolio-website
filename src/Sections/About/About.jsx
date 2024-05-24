@@ -1,8 +1,6 @@
 import React from 'react'
 import './About.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
-
+import theme_pattern from '../../assets/icons/theme_pattern.svg'
 
 const About = () => {
   return (
@@ -12,9 +10,6 @@ const About = () => {
         <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
-        <div className="about-left">
-            {/* <img src={profile_img} alt="" /> */}
-        </div>
         <div className="about-right">
             <div className="about-para">
               <p>Data Scientist with 4 years experience working at one of Australia’s big 4 banks, 2 years as a BA.

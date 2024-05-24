@@ -12,6 +12,24 @@
     font-size: 16px;
 }
 
+.nav__non-selected {
+  opacity: 0;
+  transition: 0.15s;
+}
+
+.nav__selected {
+  display: block;
+  opacity: 1;
+}
+
+.anchor-link:hover + .nav__non-selected {
+  display: block;
+  opacity: 0.6;
+  transition: 0.15s;
+}
+
+
+
 .nav-connect{
     padding: 15px 20px;
     border-radius: 50px;

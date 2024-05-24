@@ -1,17 +1,20 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/sandun_hero_img.jpg'
+import profile_img from '../../assets/sandun/sandun_hero_img.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import resume from '../../assets/Sandun_Kanangama_Resume.pdf'
+import resume from '../../assets/sandun/Sandun_Kanangama_Resume.pdf'
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-      {/* <img src={profile_img} alt="" className='profile-img' /> */}
-      <div class="profile-img-container">
-        <img src={profile_img} class="profile-img" alt="Profile Image" />
+      <div className="profile-img-container">
+        <a href="https://www.linkedin.com/in/sandun-kanangama" target="_blank" className="profile-link">
+          <img src={profile_img} className="profile-img" alt="Profile Image" />
+          <div className="overlay">
+            <span>LinkedIn</span>
+          </div>
+        </a>
       </div>
-
       <h1>I'm <span>Sandun,</span> a Data Scientist based in Tokyo.</h1>
       <p>I've come from Melbourne, Australia. I am currently relocating to Japan, and making a transition from Business Analysis into Data and Tech.</p>
       <div className="hero-action">
