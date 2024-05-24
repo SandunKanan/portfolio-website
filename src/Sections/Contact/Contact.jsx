@@ -12,10 +12,19 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // emailjs.sendForm(
+    //   process.env.REACT_APP_EMAILJS_SERVICE_ID,
+    //   process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+    //   form.current,
+    //   process.env.REACT_APP_EMAILJS_USER_ID
+
     emailjs
-      .sendForm('service_c13i4es', 'template_wb96d3l', form.current, {
-        publicKey: 'sq353xe3ojPz5scOD',
-      })
+      .sendForm(
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
+        form.current, {
+        publicKey: process.env.EMAILJS_PUBLIC_KEY,
+        })
       .then(
         () => {
           console.log('SUCCESS!');
