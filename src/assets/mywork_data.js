@@ -7,34 +7,40 @@ import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
+        no:1,
+        name:"Web design",
+        img:project1_img,
+        link:"https://yelp-nlpalate.streamlit.app/"
     },
     {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        no:2,
+        name:"Web design",
+        img:project2_img,
+        link:""
     },
     {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        no:3,
+        name:"Web design",
+        img:project3_img,
+        link:""
     },
     {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
+        no:4,
+        name:"Web design",
+        img:project4_img,
+        link:""
     },
     {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
+        no:5,
+        name:"Web design",
+        img:project5_img,
+        link:""
     },
     {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
+        no:6,
+        name:"Web design",
+        img:project6_img,
+        link:""
     },
 ]
 
