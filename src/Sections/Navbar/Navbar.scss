@@ -14,7 +14,7 @@
 
 .nav__non-selected {
   opacity: 0;
-  transition: 0.15s;
+  transition: 0.5s;
 }
 
 .nav__selected {
@@ -25,10 +25,19 @@
 .anchor-link:hover + .nav__non-selected {
   display: block;
   opacity: 0.6;
-  transition: 0.15s;
+  transition: 0.5s;
 }
 
-
+.logo-box {
+  width: 150px;
+}
+.logo{
+    width: 60px;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
 
 .nav-connect{
     padding: 15px 20px;
@@ -38,12 +47,7 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.logo-box {
-  width: 150px;
-}
-.logo{
-    width: 60px;
-}
+
 .nav-connect:hover{
     transform: scale(1.05);
 }

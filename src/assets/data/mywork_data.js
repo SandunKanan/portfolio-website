@@ -1,6 +1,7 @@
 import project1_img from '../sandun/sandun_project_nlpalate.png'
 import project2_img from '../sandun/FindMyCity_screenshot.png'
-import project3_img from '../examples/project_3.svg'
+import project3_img from '../sandun/sandun_jlpt_website.png'
+import project4_img from '../sandun/sandun_acro.png'
 
 const mywork_data = [
     {
@@ -19,10 +20,17 @@ const mywork_data = [
     },
     {
         no:3,
-        name:"Web design",
-        desc:"",
+        name:"Japanese Learning Tool",
+        desc:"A website to help keep all you Japanese Learning in one place",
         img:project3_img,
-        link:""
+        link:"https://jlpt-neon.vercel.app/"
+    },
+    {
+        no:4,
+        name:"Acroyoga Database",
+        desc:"List of moves and drills for Acroyoga",
+        img:project4_img,
+        link:"https://acroyoga.vercel.app/"
     },
 ]
 
