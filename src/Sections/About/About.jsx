@@ -1,6 +1,7 @@
 import React from 'react'
-import './About.css'
+import './About.scss'
 import theme_pattern from '../../assets/icons/theme_pattern.svg'
+import profileImg2 from '../../assets/sandun/sandun-kanangama-photo.jpg'
 
 const About = () => {
   return (
@@ -10,6 +11,9 @@ const About = () => {
         <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
+        <div className="about-left">
+          <img className="about-left__img" src={profileImg2} alt="Sandun Kanangama" />
+        </div>
         <div className="about-right">
             <div className="about-para">
               <p>Data Scientist with 4 years experience working at one of Australia’s big 4 banks, 2 years as a BA.
