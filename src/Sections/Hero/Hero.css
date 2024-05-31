@@ -26,8 +26,8 @@
 }
 
 .profile-img {
-  width: 120%;
-  height: 120%;
+  width: 125%;
+  height: 125%;
   object-fit: cover; /* Ensures the image covers the container */
   border-radius: 50%;
   transition: transform 0.5s, border 0.5s;
