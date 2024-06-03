@@ -17,8 +17,8 @@
   // border-radius: 50%;
 
   &__img {
-    width: 300px;
-    border-radius: 50%;
+    width: 16rem;
+    // border-radius: 50%;
     object-fit: cover;
 
   }
@@ -28,7 +28,7 @@
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 .about-para{
     display: flex;

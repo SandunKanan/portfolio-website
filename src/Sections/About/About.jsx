@@ -16,9 +16,10 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-              <p>Data Scientist with 4 years experience working at one of Australia’s big 4 banks, 2 years as a BA.
-                I’ve recently embarked on a professional development journey, completing two intensive
-                3-month bootcamps in web development and data science.</p>
+              <p>I’ve recently embarked on a professional development journey, completing two intensive
+                3-month bootcamps in web development and data science. With 4 years experience working at
+                one of Australia’s big 4 banks, I have a strong foundation in business and finance.
+                </p>
               <p>I’m currently seeking Data opportunities in Tokyo. Keen to contribute to
                 innovative projects, and my approach to work and leadership is
                 focused on strong collaboration between different teams, across departments.</p>
