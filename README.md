@@ -7,7 +7,7 @@ My website is currently deployed here:
 https://sandun-kanangama.vercel.app/
 
 
-### To download and run the app from terminal:
+## To download and run the app from terminal:
 git clone git@github.com:SandunKanan/portfolio-website.git\
 cd portfolio-website\
 npm i\
