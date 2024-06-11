@@ -6,7 +6,7 @@ I use this website to showcase my skills as a Data Scientist and Software Engine
 My website is currently deployed here:
 https://sandun-kanangama.vercel.app/
 
-To run the app from terminal:
+To run the app from terminal:\
 git clone git@github.com:SandunKanan/portfolio-website.git\
 cd portfolio-website\
 npm i\
