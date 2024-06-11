@@ -1,8 +1,18 @@
-# React + Vite
+# Sandun's Portfolio Website
+Built using Vite.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I use this website to showcase my skills as a Data Scientist and Software Engineer.
 
-Currently, two official plugins are available:
+My website is currently deployed here:
+https://sandun-kanangama.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the app from terminal:
+git clone git@github.com:SandunKanan/portfolio-website.git
+cd portfolio-website
+npm i
+npm run dev
+
+After running, website will likely be hosted on:
+http://localhost:5173/
+
+You can copy this link into your browser to view.
