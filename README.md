@@ -7,10 +7,10 @@ My website is currently deployed here:
 https://sandun-kanangama.vercel.app/
 
 To run the app from terminal:
-git clone git@github.com:SandunKanan/portfolio-website.git
-cd portfolio-website
-npm i
-npm run dev  
+git clone git@github.com:SandunKanan/portfolio-website.git__
+cd portfolio-website__
+npm i__
+npm run dev
 
 After running, website will likely be hosted on:
 http://localhost:5173/
