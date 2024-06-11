@@ -8,7 +8,7 @@ https://sandun-kanangama.vercel.app/
 
 
 ## To download and run the app from terminal:
-git clone git@github.com:SandunKanan/portfolio-website.git\
+git clone git@github.com:SandunKanan/portfolio-website.git (or download as zip)\
 cd portfolio-website\
 npm i\
 npm run dev
