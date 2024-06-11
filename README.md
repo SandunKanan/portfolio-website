@@ -10,7 +10,7 @@ To run the app from terminal:
 git clone git@github.com:SandunKanan/portfolio-website.git
 cd portfolio-website
 npm i
-npm run dev
+npm run dev  
 
 After running, website will likely be hosted on:
 http://localhost:5173/
