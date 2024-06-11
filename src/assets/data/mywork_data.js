@@ -20,14 +20,14 @@ const mywork_data = [
     },
     {
         no:3,
-        name:"Japanese Learning Tool",
-        desc:"A website to help keep all you Japanese Learning in one place",
+        name:"Japanese Learning Tool -",
+        desc:"A website to keep all Japanese Learning in one place",
         img:project3_img,
         link:"https://jlpt-neon.vercel.app/"
     },
     {
         no:4,
-        name:"Acroyoga Database",
+        name:"Acroyoga Database -",
         desc:"List of moves and drills for Acroyoga",
         img:project4_img,
         link:"https://acroyoga.vercel.app/"
