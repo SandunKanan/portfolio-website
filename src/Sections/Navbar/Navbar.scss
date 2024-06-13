@@ -1,3 +1,5 @@
+@use "../../styles/partials/colors" as *;
+
 .navbar{
     display: flex;
     align-items: center;
@@ -43,6 +45,7 @@
     padding: 15px 20px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    // @include purple-orange-gradient(0.36%, 102.06%);
     font-size: 16px;
     cursor: pointer;
     transition: 0.5s;

@@ -1,0 +1,8 @@
+@mixin purple-orange-gradient($start-percent: 10%, $end-percent: 100%) {
+  background: linear-gradient(270deg, #DF8908 $start-percent, #B415FF $end-percent);
+}
+
+
+@mixin green-blue-gradient($start-percent: 10%, $end-percent: 100%) {
+  background: linear-gradient(270deg, #00b4e6 $start-percent, #7edf87 $end-percent);
+}

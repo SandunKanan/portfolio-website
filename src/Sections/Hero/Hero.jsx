@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css'
+import './Hero.scss'
 import profile_img from '../../assets/sandun/sandun_hero_img.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import resume from '../../assets/sandun/Sandun_Kanangama_Resume.pdf'
@@ -15,8 +15,8 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      <h1>I'm <span>Sandun,</span> a Data Scientist based in Tokyo.</h1>
-      <p>I've come from Melbourne, Australia. I am currently relocating to Japan, and making a transition from Business, into Data and Tech.</p>
+      <h1>I'm <span>Sandun,</span> a <span className='job'>Data Scientist</span> and <span className='job'>Full Stack Developer</span> in Tokyo.</h1>
+      <p>I've come from Melbourne, Australia. I am currently relocating to Japan, and I've made a transition from Business into Tech.</p>
       <div className="hero-action">
         <div className="hero-connect-box"><AnchorLink className='hero-connect' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <a href={resume} target="_blank">

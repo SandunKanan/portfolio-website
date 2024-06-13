@@ -1,3 +1,5 @@
+@use "../../styles/partials/colors" as *;
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -22,7 +24,7 @@
 .contact-left h1{
     font-size: 50px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    @include green-blue-gradient(30%, 110%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,14 +98,14 @@
         margin: 50px 6%;
         align-items: start;
     }
-   
+
     .contact-section{
         flex-direction: column;
     }
     .contact-left h1{
         font-size: 35px;
     }
-   
+
     .contact-detail{
         gap: 12px;
     }
@@ -116,6 +118,6 @@
     .contact-right label{
         font-size: 14px;
     }
-   
-    
+
+
 }

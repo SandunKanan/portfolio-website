@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import './Contact.css'
+import './Contact.scss'
 import theme_pattern from '../../assets/icons/theme_pattern.svg'
 import mail_icon from '../../assets/icons/mail_icon.svg'
 import location_icon from '../../assets/icons/location_icon.svg'

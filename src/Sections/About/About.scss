@@ -1,3 +1,5 @@
+@use "../../styles/partials/colors" as *;
+
 .about{
     display: flex;
     flex-direction: column;
@@ -53,14 +55,20 @@
     font-size: 20px;
     font-weight: 500;
 }
-.about-skill hr{
+.about-skill__bar{
     outline: none;
     border: none;
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    // background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    @include purple-orange-gradient(20%, 90%);
+
+    &--blue {
+      @include green-blue-gradient(30%, 100%);
+    }
 }
+
 .about-achievements{
     display: flex;
     width: 100%;
@@ -78,6 +86,7 @@
     font-size: 40px;
     font-weight: 700;
     background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    // linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
