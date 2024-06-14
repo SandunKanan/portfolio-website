@@ -65,7 +65,7 @@
     @include purple-orange-gradient(20%, 90%);
 
     &--blue {
-      @include green-blue-gradient(30%, 100%);
+      @include green-blue-gradient(100%, 30%);
     }
 }
 
