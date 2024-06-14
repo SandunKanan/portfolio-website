@@ -1,9 +1,9 @@
 import React from 'react';
-import Hero from '../../Sections/Hero/Hero';
-import About from '../../Sections/About/About';
+import Hero from '../../sections/Hero/Hero';
+import About from '../../sections/About/About';
 // import Services from '../../Components/Services/Services';
-import MyWork from '../../Sections/MyWork/MyWork';
-import Contact from '../../Sections/Contact/Contact';
+import MyWork from '../../sections/MyWork/MyWork';
+import Contact from '../../sections/Contact/Contact';
 
 
 const Home = () => {
